@@ -1,0 +1,17 @@
+.gform_wrapper.gravity-theme * {
+    box-sizing: border-box;
+    color: white;
+}
+
+div#gf_1.gform_anchor{
+	color: red !important;
+}
+
+body .gform_wrapper input[type="text"] {
+    color: #000000 !important;
+}
+
+.gform_wrapper.gravity-theme * {
+    box-sizing: border-box;
+    color: black;
+}

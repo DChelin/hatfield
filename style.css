@@ -1,0 +1,460 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/*Remove body margin*/
+body{
+	margin: 0px !important;
+}
+/*Stop x overflow*/
+body 
+{
+	overflow-x: hidden;
+}
+/*-----GRAVITY FORMS FIX-----*/
+
+#pledge .elementor-row {
+    display: block;
+}
+
+#formSec .elementor-row {
+	display: block;
+}
+
+/*-----GRAVITY FORMS-----*/
+
+#formSec .elementor-row {
+	display: block;
+}
+
+/*Text fields*/
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    border-radius: 25px !important;
+    padding: 10px 10px 10px 25px !important;
+    border-color: #F5B31A;
+    border-width: 3px !important;
+    border-style: solid !important;
+}
+/*Select dropdown fields*/
+.gform_wrapper select {
+    border-radius: 25px !important;
+    padding: 10px 10px 10px 25px !important;
+    border-color: #F5B31A;
+    border-width: 3px !important;
+    border-style: solid !important;
+}
+/*Paragraph fields*/
+.gform_wrapper textarea {
+    padding: 10px 10px 10px 10px !important;
+	margin-top: 12px !important;
+	border-width: 1px !important;
+	border-color: #F5B31A;
+	border-style: solid !important;
+	border-radius: 0px !important;
+}
+/*Field lables*/
+.gform_wrapper label.gfield_label, .gform_wrapper legend.gfield_label {
+    font-weight: 500 !important;
+	color: #414042 !important;
+	margin-bottom: 0px !important;
+	margin-top: 20px !important;
+}
+/*Radio button and checkbox alignment*/
+.gform_wrapper.gf_browser_chrome .gfield_checkbox li input, .gform_wrapper.gf_browser_chrome .gfield_checkbox li input[type=checkbox], .gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio] {
+    margin-top: 0px !important;
+}
+body .gform_wrapper ul li.gfield {
+    margin-top: 0px !important;
+}
+/*Submit button alignment*/
+.gform_wrapper .gform_footer {
+		margin: 0 0 0 0 !important;
+	    text-align: center;
+}
+
+.gform_confirmation_message  {
+	color: #000000;
+}
+
+[type=button], [type=submit] {
+    fill: #FFFFFF !important;
+    color: #FFFFFF !important;
+    background-color: #377BBB !important;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #377BBB; 
+}
+
+[type=button]:hover, [type=submit]:hover {
+    color: #377BBB !important;
+    background-color: #f5b31a00 !important;
+    border-color: #377BBB !important;
+}
+
+.gfield_consent_label a {
+	color: white !important;
+}
+
+.gfield_checkbox label a {
+	color: #414042 !important;
+}
+
+#darkcontact [type=button], #darkcontact [type=submit], #darkcontact button {
+	text-transform: uppercase;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px 40px 10px 40px;
+    font-family: "Proxima Nova Xbold", Sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    fill: #FFFFFF;
+    color: #000000;
+    background-color: #F5B31A !important;
+    border-style: solid !important;
+    border-width: 2px 2px 2px 2px !important;
+    border-color: #F5B31A !important;
+}
+
+#darkcontact [type=button]:hover, #darkcontact [type=submit]:hover, #darkcontact button {
+        color: #F5B31A !important;
+    background-color: #f5b31a00 !important;
+    border-color: #F5B31A !important;
+}
+
+#darkcontact .gform_wrapper label.gfield_label, #darkcontact .gform_wrapper legend.gfield_label {
+    color: #ffffff !important;
+}
+
+#darkcontact .gform_wrapper.gravity-theme .gfield_checkbox label, .gform_wrapper.gravity-theme .gfield_radio label {
+    color: #ffffff;
+}
+
+#darkcontact .gfield_radio label {
+    color: #ffffff;
+}
+
+#darkcontact .gform_confirmation_message {
+	color: #ffffff;
+}
+
+#darkcontact .gfield_checkbox label a {
+	color: white !important;
+}
+
+.gform_wrapper.gravity-theme .gfield select.large {
+    width: 100%;
+    height: 45px;
+    background-color: white;
+}
+
+.gform_wrapper.gravity-theme .gfield_checkbox label, .gform_wrapper.gravity-theme .gfield_radio label {
+    display: inline-block;
+    color: #414042;
+    font-family: "Proxima Nova Regular", Sans-serif;
+    font-size: 1em;
+}
+
+.gform_fields .gfield input::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+  	color: #414042;
+    font-family: "Proxima Nova Regular", Sans-serif;
+    font-size: 1em;
+}
+
+/*----- Footer Form -----*/
+
+#footerForm input[type="submit"] {
+    border-style: solid !important;
+    border-width: 2px 2px 2px 2px !important;
+    border-color: #F5B31A !important;
+}
+
+#footerForm .gfield_consent_label {
+	color: white;
+}
+
+#footerForm .gfield_required {
+    color: #ffffff;
+}
+
+#footerForm .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    border-width: 0px !important;
+}
+
+#footerForm .gform_fields .gfield input::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+  	color: #414042;
+}
+
+#footerForm .gform_confirmation_message_2 {
+	color: white;
+	text-align: center;
+    font-size: 1.2em;
+}
+
+#footerForm [type=button], #footerForm [type=submit], #footerForm button {
+	text-transform: uppercase;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px 40px 10px 40px;
+    font-family: "Proxima Nova Xbold", Sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #F5B31A !important;
+    border-style: solid !important;
+    border-width: 2px 2px 2px 2px !important;
+    border-color: #F5B31A !important;
+}
+
+#footerForm [type=button]:hover, #footerForm [type=submit]:hover, #footerForm button {
+        color: #F5B31A !important;
+    background-color: #f5b31a00 !important;
+    border-color: #F5B31A !important;
+}
+
+#footerForm .gform_wrapper label.gfield_label, #footerForm .gform_wrapper legend.gfield_label {
+    color: #ffffff !important;
+}
+
+#footerForm .gform_wrapper.gravity-theme .gfield_checkbox label, #footerForm .gform_wrapper.gravity-theme .gfield_radio label {
+    color: #ffffff;
+}
+
+/*----- Faith Promise Form -----*/
+
+#gform_wrapper_5 input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    border-color: #D00F35!important;
+}
+
+#gform_wrapper_5 textarea {
+	border-color: #D00F35!important;
+}
+
+#gform_wrapper_5 select {
+    border-color: #D00F35!important;
+}
+
+
+/*-----GUTENBERG BLOCKS-----*/
+/*Padding for tables*/
+.wp-block-table.is-style-stripes td, .wp-block-table.is-style-stripes th {
+    padding: 10px;
+}
+/*Margin for divider*/
+.wp-block-separator.is-style-wide {
+    border-bottom-width: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*----- Home -----*/
+
+#eventImg {
+	height: 375px;
+}
+
+/* ======== Swiper images ============ */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    -webkit-backface-visibility: hidden;
+}
+.swiper-slide:nth-child(odd) .single-slide img {
+    transform: rotate(-3deg);
+}
+.swiper-slide:nth-child(even) .single-slide img {
+    transform: rotate(3deg);
+}
+.swiper-slide .single-slide::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    background: #f5b31a;
+    -webkit-backface-visibility: hidden;
+}
+
+.swiper-slide:nth-child(odd) .single-slide::before {
+    transform: rotate(3deg);
+}
+.swiper-slide:nth-child(even) .single-slide::before {
+    transform: rotate(-3deg);
+}
+
+.pad {
+    padding: 3rem 0;
+}
+.single-slide {
+    position: relative;
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    -webkit-backface-visibility: hidden;
+}
+
+/* ======== Home Page ============ */
+
+#imageCara .swiper-image-stretch .swiper-slide .swiper-slide-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 450px) {
+  #imageCara .swiper-image-stretch .swiper-slide .swiper-slide-image {
+    height: 160px;
+}
+}
+
+
+/* ======== About Page ============ */
+
+#visionSlide img {
+    height: 230px;
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	object-fit: cover;
+}
+
+@media (min-width:501px) and (max-width:880px) {
+    #visionSlide img {
+    	height: 215px;
+    	width: 100%;
+    	object-fit: cover;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+ 	#visionSlide img {
+    	height: 150px;
+	}
+}
+
+ #visionSlide .jet-hor-timeline .jet-arrow {
+    top: 300px !important;
+}
+
+#visionSlide .jet-hor-timeline-item__card-desc {
+    min-height: 150px;
+}
+
+@media only screen and (min-width: 1050px) {
+ 	#visionSlide .jet-hor-timeline .jet-arrow {
+    	display: none;
+	}
+}
+
+#gradTitles h2 {
+  background: linear-gradient(to right, #983d91, #b42d7b, #c9246a, #d42261, #e62250, #ee2348, #f5383c, #f55333, #f5712a, #f59023, #f5af1b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#gradSection {
+	background: linear-gradient(to right, #eb234b, #eb234b, #eb234b, #b93375, #a83983, #a13b89, #973f91, #924095);
+}
+
+@media only screen and (max-width: 500px) {
+ #aboutSlide .sp-horizontal .sp-arrows {
+    display: none;
+}
+}
+
+/* ======== Contact Page ============ */
+
+@media only screen and (max-width: 500px) {
+	
+	#connectSlider .swiper-slide {
+    	height: 250px;
+}
+}
+
+/* ======== Watch Page ============ */
+
+#soundCloud .elementor iframe {
+    height: 262px;
+}
+
+#soundCloud .sound__waveform {
+    top: 75px;
+}
+
+#soundCloud #widget {
+	height: 35% !important;
+}
+
+.multiSounds__container {
+    display: none !important;
+}
+
+.ytc-mfp-iframe-holder .ytc-mfp-close, .ytc-mfp-image-holder .ytc-mfp-close {
+    color: #fff !important;
+    right: -6px;
+    text-align: right;
+    padding-right: 6px;
+    width: 0px;
+    background-color: transparent !important;
+}
+
+.youtube_channel.responsive {
+    display: inline-flex;
+}
+
+.youtube_channel.responsive .ytc_video_container {
+    padding: 0px 10px 0px 10px;
+}
+
+@media only screen and (max-width: 750px) {
+
+	.youtube_channel.responsive {
+    	display: block;
+	}
+	.youtube_channel.responsive .ytc_video_container {
+    	padding: 0px 0px 30px 0px;
+	}
+}
+
+/* ======== Grow Page ============ */
+
+#hopeCenTitle {
+	min-height: 68px;
+}
+
+#churchhomeCont {
+	min-height: 250px;
+}
+
+.coursesCont {
+	min-height: 60px;
+}
+
+/* ======== Blog Page ============ */
+
+.prev:hover {
+	font-size: 18px;
+    transition: font-size 0.5s;
+}
+
+.next:hover {
+    font-size: 18px;
+	transition: font-size 0.5s;
+}
